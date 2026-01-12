@@ -1,14 +1,12 @@
-**📖 Stories **
+**📖 Stories**
 The Intelligence Layer for SaaS Product Managers.
 
 Stories is an automated product intelligence engine that fetches customer feedback, competitor moves, and industry signals from across the web and internal tools, transforming fragmented data into actionable Product Stories.
 
-**🚀 The Problem
-**
+**🚀 The Problem**
 Product Managers are drowning in data but starving for insights. Feedback lives in Zendesk, competitor updates live on LinkedIn, and market trends live on Reddit. Stories centralizes these signals, clusters them using AI, and presents them as unified narratives.
 
-**✨ Features
-**
+**✨ Features**
 – Multi-Source Ingestion: Automated fetching from Zendesk, Intercom, G2, Reddit, and Competitor site scrapers.
 
 - AI-Driven Clustering: Uses Gemini to group similar signals (e.g., 5 support tickets + 1 tweet = 1 Story).
@@ -19,8 +17,8 @@ Product Managers are drowning in data but starving for insights. Feedback lives 
 
 - Stakeholder Sync: Pushes "Stories" directly into Slack or Notion to keep the whole team informed.
 
-**🏗️ Architecture
-**Stories uses a Hybrid Event-Driven Architecture to ensure real-time intelligence:
+**🏗️ Architecture**
+Stories uses a Hybrid Event-Driven Architecture to ensure real-time intelligence:
 
 Ingestion Layer: Webhook listeners for real-time SaaS alerts + Cron-based pollers for external scrapers.
 
